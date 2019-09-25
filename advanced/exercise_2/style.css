@@ -4,23 +4,20 @@
 	margin: 0;
 }
 
-
 header{
 	background-color: red;
 	color: white;
 }
-h1{
-	font-size: 20pt;
-	font-weight: bold;
-}
+
 #search{
-	position: relative;
+	
 }
-nav li{
-	display: inline;
-	list-style-type: none;
-	padding: 30px;
+
+main {
+	width: 100%;
+	height: 400px;
 }
+
 nav{
 	height: 30pt;
 	background-color: red;
@@ -36,15 +33,67 @@ nav{
 	
 }
 
+nav li{
+	text-decoration: none;
+	list-style-type: none;
+	float: left;
+	padding: 30px;
+}
+
 nav a {
 	color: white;
 	text-decoration: none;
 }
 
-#werbung_bild{
-	width: 200px;
-	height:  150px;
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 }
+
+#anzeige {
+	width: 100%;
+	height: 200px;
+}
+
+#anzeige div {
+	width: 33%;
+	float: left;
+}
+
+#anzeige img {
+	height: 200px;
+	margin: 10px;
+}
+
+#Hauptartikel {
+	width: 70%;
+	height: 300px;
+	float: left;
+	border: 1px solid red;
+}
+
+#Hauptartikel img {
+	width: 100%;
+}
+
+.artikel {
+	width: 100%;
+}
+
+.artikel img {
+	width: 30%;
+}
+
+#shortlist {
+	width: 30%;
+	height: 300px;
+	float: left;
+	border: 1px solid red;
+}
+
+
 #werbung{
 	float: left;
 }
@@ -53,8 +102,5 @@ nav a {
 }
 #artikel{
 	width: 30%;
-	float: left;
-}
-#Hauptartikel{
 	float: left;
 }

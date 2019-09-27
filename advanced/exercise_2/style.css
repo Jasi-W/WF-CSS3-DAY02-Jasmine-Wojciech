@@ -4,6 +4,10 @@
 	margin: 0;
 }
 
+a         { font-family: calibri; font-size: 1em; color: white; }
+a:hover   { font-weight: bold; }
+a:active  { color: dimgray; background-color: white; }
+
 header{
 	background-color: red;
 	color: white;
